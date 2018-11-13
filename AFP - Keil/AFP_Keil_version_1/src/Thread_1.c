@@ -32,6 +32,9 @@ enum commands{
 #define Show_Files_char "1"
 #define Receive_File_char "4"
 
+#define Play_char "P"
+#define Pause_char "S"
+
 char *StartFileList_msg = "2\n";
 char *EndFileList_msg = "3\n";
 //////////////////////////////////////////////////////////
@@ -127,12 +130,26 @@ void Rx_Command (void const *argument){
       if(!strcmp(rx_char, Show_Files_char)){
          // Trigger1 received
          osMessagePut (mid_CMDQueue, SendFiles, osWaitForever);
-      } if (!strcmp(rx_char, Receive_File_char)){
+      }
+			if (!strcmp(rx_char, Receive_File_char)){
         // Trigger2 received
 				UART_receivestring(fileName, 50);
 				LED_On(LED_Orange);
 				LED_Off(LED_Orange);
-      } // end if
+      }
+			if(!strcmp(rx_char, Play_char)){
+         // Trigger1 received
+         //osMessagePut (mid_CMDQueue, SendFiles, osWaitForever);
+				LED_Off(LED_Orange);
+				LED_On(LED_Green);
+      }
+			if(!strcmp(rx_char, Pause_char)){
+         // Trigger1 received
+         //osMessagePut (mid_CMDQueue, SendFiles, osWaitForever);
+				LED_Off(LED_Green);
+				LED_On(LED_Orange);
+      }
+			// end if
    }
 } // end Rx_Command
 
