@@ -11,6 +11,8 @@ Public Class Form1
     Dim ShowFilesStr As String = "1"
     Dim StartFileListStr As String = "2"
     Dim EndFileListStr As String = "3"
+    Dim PlayFileStr As String = "P"
+    Dim PauseFileStr As String = "S"
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'Try to open the seial port 
@@ -33,7 +35,6 @@ Public Class Form1
     ' command = 2 - clear the contents of the ListBox
     ' command = 3 - add the string to the ListBox
     Public Sub ListBoxDelMethod(ByVal command As Integer, ByVal myStr As String)
-
         If command = StartFileList Then
             File_List.Items.Clear()
         ElseIf command = EndFileList Then
@@ -99,11 +100,14 @@ Public Class Form1
 
     ' When the pause button is clicked send the char "S" to stop the song from playing
     Private Sub Pause_Button_Click(sender As Object, e As EventArgs) Handles Pause_Button.Click
-        SerialPort1.Write("S", 0, 1)
+        If SerialPort1.IsOpen Then
+            ' Send Show_Files command
+            SerialPort1.Write(PauseFileStr, 0, 1)
+        End If
     End Sub
 
     ' When the play button is clicked send the char "P" to play the song
     Private Sub Play_Button_Click(sender As Object, e As EventArgs) Handles Play_Button.Click
-        SerialPort1.Write("P", 0, 1)
+        SerialPort1.Write(PauseFileStr, 0, 1)
     End Sub
 End Class
