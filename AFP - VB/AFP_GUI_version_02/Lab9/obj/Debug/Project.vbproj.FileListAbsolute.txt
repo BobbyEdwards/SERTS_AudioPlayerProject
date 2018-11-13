@@ -1,0 +1,14 @@
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_1\Lab9\bin\Debug\Lab9.exe.config
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_1\Lab9\bin\Debug\Lab9.exe
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_1\Lab9\bin\Debug\Lab9.pdb
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_1\Lab9\bin\Debug\Lab9.xml
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_1\Lab9\obj\Debug\Lab9.Form1.resources
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_1\Lab9\obj\Debug\Lab9.Resources.resources
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_1\Lab9\obj\Debug\Project.vbproj.GenerateResource.Cache
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_1\Lab9\obj\Debug\Lab9.exe
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_1\Lab9\obj\Debug\Lab9.xml
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_1\Lab9\obj\Debug\Lab9.pdb
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_02\Lab9\bin\Debug\Lab9.exe.config
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_02\Lab9\obj\Debug\Lab9.exe
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_02\Lab9\obj\Debug\Lab9.xml
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_02\Lab9\obj\Debug\Lab9.pdb
