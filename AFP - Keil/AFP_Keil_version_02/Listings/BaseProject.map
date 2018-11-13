@@ -5868,28 +5868,28 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-       198          8         40          4       5440      25607   fs_config.o
+       198          8         40          4       5440      24287   fs_config.o
        164         16         32          0          0       2996   led_f4discovery.o
-       234         18          0          0          0     657185   main.o
+       234         18          0          0          0     656765   main.o
        846         94          0          1          0       9002   otg_fs_stm32f4xx.o
        130         26        104         20      25936      11138   rtx_conf_cm.o
         64         26        392          0       1536        968   startup_stm32f407xx.o
-         0          0          0          0        388       2672   stm32f4_discovery_audio.o
+         0          0          0          0        388       2432   stm32f4_discovery_audio.o
        190         26          0          9          0       4838   stm32f4xx_hal.o
        340         28          0          0          0      34860   stm32f4xx_hal_cortex.o
        746          6          0          0          0       2589   stm32f4xx_hal_dma.o
        926         90          0          0          0       5409   stm32f4xx_hal_gpio.o
       1700         74          0          0          0       5229   stm32f4xx_hal_rcc.o
-        72          8          0          0          0       5667   stm32f4xx_it.o
-       100         18         24          4          0       1595   system_stm32f4xx.o
-       768        118         71         30         40      22651   thread_1.o
-       772         82         16         48          0       5509   uart_driver.o
+        72          8          0          0          0       5067   stm32f4xx_it.o
+       100         18         24          4          0       1415   system_stm32f4xx.o
+       768        118         71         30         40      22231   thread_1.o
+       772         82         16         48          0       5089   uart_driver.o
       5758        224        136          0         56      58453   usart_stm32f4xx.o
-       612         18        136         52        852      35797   usbh_config_0.o
+       612         18        136         52        852      33877   usbh_config_0.o
       3836        292         80         43        256      51740   usbh_fs_stm32f4xx.o
 
     ----------------------------------------------------------------------
-     17482       1172       1064        220      34508     943905   Object Totals
+     17482       1172       1064        220      34508     938385   Object Totals
          0          0         32          0          0          0   (incl. Generated)
         26          0          1          9          4          0   (incl. Padding)
 
@@ -5977,8 +5977,8 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     43652       2614       2536        256      34704    1031260   Grand Totals
-     43652       2614       2536        256      34704    1031260   ELF Image Totals
+     43652       2614       2536        256      34704    1025740   Grand Totals
+     43652       2614       2536        256      34704    1025740   ELF Image Totals
      43652       2614       2536        256          0          0   ROM Totals
 
 ==============================================================================
