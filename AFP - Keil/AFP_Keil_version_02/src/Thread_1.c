@@ -50,6 +50,10 @@ osThreadDef (Control, osPriorityNormal, 1, 0); // thread object
 osMessageQId mid_CMDQueue; // message queue for commands to Thread
 osMessageQDef (CMDQueue, 1, uint32_t); // message queue object
 
+// Command queue from Controller FS_Thread
+osMessageQId mid_Command_FS_Queue; // message queue for commands to Thread
+osMessageQDef (Command_FS_Queue, 1, uint32_t); // message queue object
+
 // UART receive thread
 void Rx_Command (void const *argument);  // thread function
 osThreadId tid_RX_Command;  // thread id
@@ -80,6 +84,7 @@ void Process_Event(uint16_t event){
         // Transition actions
         // List entry actions
         LED_On(LED_Green);
+				osMessagePut (mid_Command_FS_Queue, SendFiles, osWaitForever);
       }
       break;
     case List:
@@ -124,7 +129,10 @@ void Init_Thread (void) {
   // Create queues
    mid_CMDQueue = osMessageCreate (osMessageQ(CMDQueue), NULL);  // create msg queue
 	if (!mid_CMDQueue)return; // Message Queue object not created, handle failure
-		
+		mid_Command_FS_Queue = osMessageCreate (osMessageQ(Command_FS_Queue), NULL);  // create msg queue
+  if (!mid_Command_FS_Queue)return; // Message Queue object not created, handle failure	
+	
+	
   // Create threads
    tid_RX_Command = osThreadCreate (osThread(Rx_Command), NULL);
   if (!tid_RX_Command) return;
@@ -210,7 +218,7 @@ void FS_Thread(void const *arg){
 		// Send the file names here
 		osEvent evt; // Receive message object
 		while(1){
-			evt = osMessageGet (mid_CMDQueue, osWaitForever); // receive command
+			evt = osMessageGet (mid_Command_FS_Queue, osWaitForever); // receive command
       if (evt.status == osEventMessage) { // check for valid message
 				if (evt.value.v == SendFiles){	// check for send files command
 					fsFileInfo info;

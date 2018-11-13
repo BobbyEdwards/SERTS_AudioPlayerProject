@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\Objects\BaseProject.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\Objects\BaseProject.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Tue Nov 13 09:25:11 2018
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Tue Nov 13 09:51:34 2018
 <BR><P>
 <H3>Maximum Stack Usage =        592 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -810,7 +810,7 @@ Global Symbols
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f407xx.o(RESET)
 </UL>
 <P><STRONG><a name="[84]"></a>Control</STRONG> (Thumb, 42 bytes, Stack size 16 bytes, thread_1.o(i.Control))
-<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = Control &rArr; osMessageGet &rArr; isrMessageGet &rArr; isr_mbx_receive &rArr; rt_psq_enq
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = Control &rArr; Process_Event &rArr; osMessagePut &rArr; isrMessagePut &rArr; isr_mbx_send &rArr; rt_psq_enq
 </UL>
 <BR>[Calls]<UL><LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;osMessageGet
 <LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Process_Event
@@ -1089,7 +1089,7 @@ Global Symbols
 <P><STRONG><a name="[a]"></a>HardFault_Handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f4xx_it.o(i.HardFault_Handler))
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f407xx.o(RESET)
 </UL>
-<P><STRONG><a name="[10a]"></a>Init_Thread</STRONG> (Thumb, 94 bytes, Stack size 8 bytes, thread_1.o(i.Init_Thread))
+<P><STRONG><a name="[10a]"></a>Init_Thread</STRONG> (Thumb, 114 bytes, Stack size 8 bytes, thread_1.o(i.Init_Thread))
 <BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = Init_Thread &rArr; osThreadCreate &rArr; svcThreadCreate &rArr; rt_tsk_create &rArr; rt_init_context &rArr; rt_init_stack
 </UL>
 <BR>[Calls]<UL><LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;osThreadCreate
@@ -1175,10 +1175,11 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBH_Uninitialize
 </UL>
 
-<P><STRONG><a name="[de]"></a>Process_Event</STRONG> (Thumb, 142 bytes, Stack size 8 bytes, thread_1.o(i.Process_Event))
-<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = Process_Event &rArr; LED_On
+<P><STRONG><a name="[de]"></a>Process_Event</STRONG> (Thumb, 154 bytes, Stack size 8 bytes, thread_1.o(i.Process_Event))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = Process_Event &rArr; osMessagePut &rArr; isrMessagePut &rArr; isr_mbx_send &rArr; rt_psq_enq
 </UL>
-<BR>[Calls]<UL><LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LED_On
+<BR>[Calls]<UL><LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;osMessagePut
+<LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LED_On
 <LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LED_Off
 </UL>
 <BR>[Called By]<UL><LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Control
@@ -2495,6 +2496,7 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[1db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;isrMessagePut
 </UL>
 <BR>[Called By]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Rx_Command
+<LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Process_Event
 <LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FS_Thread
 </UL>
 
