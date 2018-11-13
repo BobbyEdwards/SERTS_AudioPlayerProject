@@ -97,4 +97,11 @@ Public Class Form1
         End If
     End Sub
 
+    Private Sub Pause_Button_Click(sender As Object, e As EventArgs) Handles Pause_Button.Click
+        SerialPort1.Write("S", 0, 1)
+    End Sub
+
+    Private Sub Play_Button_Click(sender As Object, e As EventArgs) Handles Play_Button.Click
+        SerialPort1.Write("P", 0, 1)
+    End Sub
 End Class
