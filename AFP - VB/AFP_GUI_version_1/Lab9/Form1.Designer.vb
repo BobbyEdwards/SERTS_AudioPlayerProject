@@ -27,6 +27,8 @@ Partial Class Form1
         Me.File_List = New System.Windows.Forms.ListBox()
         Me.SerialPort1 = New System.IO.Ports.SerialPort(Me.components)
         Me.Select_File_Button = New System.Windows.Forms.Button()
+        Me.Pause_Button = New System.Windows.Forms.Button()
+        Me.Play_Button = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Show_Files
@@ -60,11 +62,31 @@ Partial Class Form1
         Me.Select_File_Button.Text = "Select File"
         Me.Select_File_Button.UseVisualStyleBackColor = True
         '
+        'Pause_Button
+        '
+        Me.Pause_Button.Location = New System.Drawing.Point(13, 184)
+        Me.Pause_Button.Name = "Pause_Button"
+        Me.Pause_Button.Size = New System.Drawing.Size(75, 23)
+        Me.Pause_Button.TabIndex = 3
+        Me.Pause_Button.Text = "Pause"
+        Me.Pause_Button.UseVisualStyleBackColor = True
+        '
+        'Play_Button
+        '
+        Me.Play_Button.Location = New System.Drawing.Point(95, 183)
+        Me.Play_Button.Name = "Play_Button"
+        Me.Play_Button.Size = New System.Drawing.Size(75, 23)
+        Me.Play_Button.TabIndex = 4
+        Me.Play_Button.Text = "Play"
+        Me.Play_Button.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 261)
+        Me.Controls.Add(Me.Play_Button)
+        Me.Controls.Add(Me.Pause_Button)
         Me.Controls.Add(Me.Select_File_Button)
         Me.Controls.Add(Me.File_List)
         Me.Controls.Add(Me.Show_Files)
@@ -77,5 +99,7 @@ Partial Class Form1
     Friend WithEvents File_List As System.Windows.Forms.ListBox
     Friend WithEvents SerialPort1 As System.IO.Ports.SerialPort
     Friend WithEvents Select_File_Button As System.Windows.Forms.Button
+    Friend WithEvents Pause_Button As System.Windows.Forms.Button
+    Friend WithEvents Play_Button As System.Windows.Forms.Button
 
 End Class
