@@ -152,7 +152,7 @@ void Process_Event(uint16_t event){
 				// Transistion actions
 				// Play State Entry Actions
 				LED_On(LED_Green);
-				osMessagePut(mid_PlayPause_Queue, PlayFile, osWaitForever);
+				osMessagePut(mid_PlayPause_Queue, PlayFile, 0);
 			}
 			break;
 		case Play:
@@ -163,7 +163,7 @@ void Process_Event(uint16_t event){
 				// Transition Actions
 				// Pause State Entry Actions
 				LED_On(LED_Red);
-				osMessagePut(mid_PlayPause_Queue, PauseFile, osWaitForever);
+				osMessagePut(mid_PlayPause_Queue, PauseFile, 0);
 			}
 			break;
     default:
@@ -251,6 +251,7 @@ void    BSP_AUDIO_OUT_TransferComplete_CallBack(void){
 	event = osMessageGet (mid_MsgQueue, 0);        // wait for message
 	
   if (event.status == osEventMessage) { // check for valid message
+		LED_Off(LED_Orange);
 		receivedBuffer = event.value.v;
 		osSemaphoreRelease(SEM0_id);
 		if (receivedBuffer == 1){
@@ -328,7 +329,52 @@ void FS_Thread (void const *argument) {
 					// Start the audio player			
 					BSP_AUDIO_OUT_Play((uint16_t *)Audio_Buffer, BUF_LEN);
 				
-					while (!endOfFile){
+					while (!endOfFile)
+					{
+						event = osMessageGet(mid_PlayPause_Queue, 0);
+						if (event.status == osEventMessage)
+						{
+							if (event.value.v == PauseFile)
+							{
+								BSP_AUDIO_OUT_ChangeBuffer((uint16_t*)Audio_Buffer, 0);
+								
+								//BSP_AUDIO_OUT_Stop(CODEC_PDWN_HW); // Power Down SW BSP
+								
+								/*if (!(BSP_AUDIO_OUT_Pause() == AUDIO_OK))
+								{
+									// An Error Occurred with Pausing the Output
+									LED_On(LED_Orange);
+								}*/
+								
+								/*if (!(BSP_AUDIO_OUT_SetMute(AUDIO_MUTE_ON) == AUDIO_OK))
+								{
+									// An Error Occurred with Muting the Device
+									LED_On(LED_Orange);
+								}*/
+								
+								event = osMessageGet(mid_PlayPause_Queue, osWaitForever);
+								if (event.status == osEventMessage)
+								{
+									if (event.value.v == PlayFile)
+									{
+										// Continue playing the music
+										
+										/*if (!(BSP_AUDIO_OUT_Resume() == AUDIO_OK))
+										{
+											// An Error Occurred with Resuming Audio Output
+											LED_On(LED_Orange);
+										}*/
+										
+										/*if (!(BSP_AUDIO_OUT_SetMute(AUDIO_MUTE_OFF) == AUDIO_OK))
+										{
+											// An Error Occurred with Unmuting the Device
+											LED_On(LED_Orange);
+										}*/
+									}
+								}
+							}
+						}
+						
 						if (bufferLoaded == 1){
 							sizeRead = fread((void *)&Audio_Buffer2, sizeof(Audio_Buffer2), 1, f);
 							if (sizeRead < 1){
