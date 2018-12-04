@@ -332,6 +332,7 @@ void FS_Thread (void const *argument) {
 			switch(event.value.v) {
 				case ListFiles:
 					//Send the file list
+					
 					break;
 				
 				case PlayFile:
