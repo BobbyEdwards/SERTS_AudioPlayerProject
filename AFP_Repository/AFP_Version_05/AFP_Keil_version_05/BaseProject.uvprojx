@@ -387,9 +387,9 @@
               <FilePath>.\src\main.c</FilePath>
             </File>
             <File>
-              <FileName>Thread_1.c</FileName>
+              <FileName>Thread.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\src\Thread_1.c</FilePath>
+              <FilePath>.\src\Thread.c</FilePath>
             </File>
           </Files>
         </Group>

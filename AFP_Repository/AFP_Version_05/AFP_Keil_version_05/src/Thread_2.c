@@ -39,7 +39,7 @@ typedef struct WAVHEADER {
 #define NUM_POINTS 1024 // number of points per channel
 #define BUF_LEN NUM_CHAN*NUM_POINTS // length of the audio buffer
 /* buffer used for audio play */
-int16_t Audio_Buffer[BUF_LEN];
+int16_t Audio_Buffer1[BUF_LEN];
 int16_t Audio_Buffer2[BUF_LEN];
 
 /* This function is called when half of the requested buffer has been transferred. */
@@ -77,7 +77,9 @@ enum commands{
   SendComplete,
   SendFiles,
 	PlayFile,
-	PauseFile
+	PauseFile,
+	ResumeFile,
+	SongDone
 };
 
 #define Show_Files_char "1"
@@ -255,16 +257,17 @@ void    BSP_AUDIO_OUT_TransferComplete_CallBack(void){
 		receivedBuffer = event.value.v;
 		osSemaphoreRelease(SEM0_id);
 		if (receivedBuffer == 1){
-			BSP_AUDIO_OUT_ChangeBuffer((uint16_t*)Audio_Buffer, BUF_LEN);
+			BSP_AUDIO_OUT_ChangeBuffer((uint16_t*)Audio_Buffer1, BUF_LEN);
 		}
-		else if (receivedBuffer == 2){
+		else if (receivedBuffer ==2){
 			BSP_AUDIO_OUT_ChangeBuffer((uint16_t*)Audio_Buffer2, BUF_LEN);
 		}
 	}
 }
 
 // FS Thread function
-void FS_Thread (void const *argument) {
+void FSThread (void const *argument) {
+	//Initialize the USB Host
 	usbStatus ustatus; // USB driver status variable
 	uint8_t drivenum = 0; // Using U0: drive number
 	char *drive_name = "U0:"; // USB drive name
@@ -301,107 +304,102 @@ void FS_Thread (void const *argument) {
 			// handle the error, fmount didn't work
 		} // end if 
 		// file system and drive are good to go
-		f = fopen ("Test.wav","r");// open a file on the USB device
-		if (f != NULL) {
+		//f = fopen ("Test.wav","r");// open a file on the USB device
+		//if (f != NULL) {
 			// Read the header data into the header variable
-			fread((void *)&header, sizeof(header), 1, f);
+			//fread((void *)&header, sizeof(header), 1, f);
 			
 			// initialize the audio output
 			rtrn = BSP_AUDIO_OUT_Init(OUTPUT_DEVICE_AUTO, 0x46, 44100);
 			if (rtrn != AUDIO_OK)return;
 			
 			// Read the first buffer block of data
-			sizeRead = fread((void *)&Audio_Buffer, sizeof(Audio_Buffer), 1, f);
+		/*
+			sizeRead = fread((void *)&Audio_Buffer1, sizeof(Audio_Buffer1), 1, f);
 			if (sizeRead < 1){
 				endOfFile = true;
 			}
 			bufferLoaded = 1;
-			
-			// Wait for Play Command
-			event = osMessageGet(mid_PlayPause_Queue, osWaitForever); // receive command
-			
-			// Check if Received Message is valid
-			if (event.status == osEventMessage)
-			{
-				// Check if Value of Message is to play file
-				if (event.value.v == PlayFile)
-				{
-					// Start the audio player			
-					BSP_AUDIO_OUT_Play((uint16_t *)Audio_Buffer, BUF_LEN);
+	*/
+	// song streaming while loop		
+	while(1){
+		//Get a message and wait forever
+		event = osMessageGet(mid_PlayPause_Queue, osWaitForever); // receive command
+		
+		// if valid message
+		if (event.status == osEventMessage) {
+			// switch for messages
+			switch(event.value.v) {
+				case ListFiles:
+					//Send the file list
+					break;
 				
-					while (!endOfFile)
-					{
-						event = osMessageGet(mid_PlayPause_Queue, 0);
-						if (event.status == osEventMessage)
-						{
-							if (event.value.v == PauseFile)
-							{
-								BSP_AUDIO_OUT_ChangeBuffer((uint16_t*)Audio_Buffer, 0);
-								
-								//BSP_AUDIO_OUT_Stop(CODEC_PDWN_HW); // Power Down SW BSP
-								
-								/*if (!(BSP_AUDIO_OUT_Pause() == AUDIO_OK))
-								{
-									// An Error Occurred with Pausing the Output
-									LED_On(LED_Orange);
-								}*/
-								
-								/*if (!(BSP_AUDIO_OUT_SetMute(AUDIO_MUTE_ON) == AUDIO_OK))
-								{
-									// An Error Occurred with Muting the Device
-									LED_On(LED_Orange);
-								}*/
-								
-								event = osMessageGet(mid_PlayPause_Queue, osWaitForever);
-								if (event.status == osEventMessage)
-								{
-									if (event.value.v == PlayFile)
-									{
-										// Continue playing the music
-										
-										/*if (!(BSP_AUDIO_OUT_Resume() == AUDIO_OK))
-										{
-											// An Error Occurred with Resuming Audio Output
-											LED_On(LED_Orange);
-										}*/
-										
-										/*if (!(BSP_AUDIO_OUT_SetMute(AUDIO_MUTE_OFF) == AUDIO_OK))
-										{
-											// An Error Occurred with Unmuting the Device
-											LED_On(LED_Orange);
-										}*/
-									}
-								}
-							}	// if pause msg
-						}	// if valid msg
+				case PlayFile:
+					//Open the song file
+					// change this to be the selected file name's string
+					f = fopen ("Test.wav","r");// open a file on the USB device
+					if(f == NULL){
+						break;
+					}
+					//Read a buffer of data
+					// read song header into header variable
+					fread((void *)&header, sizeof(header), 1, f);
+					// load data into first buffer and record the size of the first buffer
+					sizeRead = fread((void *)&Audio_Buffer1, sizeof(Audio_Buffer1), 1, f);
+					// record the buffer that was loaded
+					bufferLoaded = 1;
+					
+					// Turn off mute
+					BSP_AUDIO_OUT_SetMute(AUDIO_MUTE_OFF);
+					// Start playing the buffer					
+					//BSP_AUDIO_OUT_Play function to start playing
+					BSP_AUDIO_OUT_Play((uint16_t *)Audio_Buffer1, BUF_LEN);
+					
+					// NOTE: No break here so it will continue with the next sections too
+					
+				case ResumeFile:
+					// if we are not at the beginning of a song play
+					if(event.value.v == ResumeFile){
+						BSP_AUDIO_OUT_SetMute(AUDIO_MUTE_OFF);
+						BSP_AUDIO_OUT_ChangeBuffer((uint16_t*)Audio_Buffer1, BUF_LEN);
+					}
+					while(sizeRead == BUF_LEN){
+						//Read new buffer of data and send to DMA
+						sizeRead = fread((void *)&Audio_Buffer2, sizeof(Audio_Buffer2), 1, f);
+						// record the buffer that was loaded
+						bufferLoaded = 2;
 						
-						if (bufferLoaded == 1){
-							sizeRead = fread((void *)&Audio_Buffer2, sizeof(Audio_Buffer2), 1, f);
-							if (sizeRead < 1){
-								endOfFile = true;
-							}
-							bufferLoaded = 2;
-						}
-						else if (bufferLoaded == 2){
-							sizeRead = fread((void *)&Audio_Buffer, sizeof(Audio_Buffer), 1, f);
-							if (sizeRead < 1){
-								endOfFile = true;
-							}
-							bufferLoaded = 1;
-						}
+						// send message that a buffer had been loaded
 						osMessagePut (mid_MsgQueue, bufferLoaded, osWaitForever); // Send Message
 						osSemaphoreWait(SEM0_id, osWaitForever);
-					}	// while loop
-					
-					BSP_AUDIO_OUT_SetMute(AUDIO_MUTE_ON); // Turns the mute status of the DAC On, muting the device
-					fclose (f); // close the file
-				}
-				else if (event.value.v == PauseFile)
-				{
-					// Pause File code Here
-				}
-			}
-		} // end if file opened
-	} // end if USBH_Initialize
-
-} // end FS Thread
+						
+						//Read a new message WITH ZERO DELAY
+						if (event.status == osEventMessage) { // check for valid message
+							if(event.value.v == PauseFile){
+								BSP_AUDIO_OUT_SetMute(AUDIO_MUTE_ON);
+								//the read buffer 1 length to zero; // this will stop all playback
+								BSP_AUDIO_OUT_ChangeBuffer((uint16_t*)Audio_Buffer1, 0);
+								
+								break; // This is not good programming but works
+							}
+							//if(event.value.v == PauseFile){
+								//the read buffer length to zero; // this will stop all playback
+							//}
+						} // end new message
+						if(sizeRead < BUF_LEN){
+							// end of song
+							//Send SongDone to state machine
+							osMessagePut(mid_CMDQueue, SongDone, osWaitForever);
+							// mute audio
+							BSP_AUDIO_OUT_SetMute(AUDIO_MUTE_ON);
+							// close file
+							fclose (f); // close the file
+						}
+					}// end while(the read buffer length is BUF_LEN from previous read)
+					break;
+				} // end of switch
+			} // switch(message)
+		} // end while
+	} // end if valid message received
+//}
+} // end Thread

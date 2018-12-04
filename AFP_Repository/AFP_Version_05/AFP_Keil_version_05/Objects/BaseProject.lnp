@@ -1,6 +1,6 @@
 --cpu=Cortex-M4.fp
 ".\objects\main.o"
-".\objects\thread_1.o"
+".\objects\thread.o"
 ".\src\libPDMFilter_CM4_Keil.lib"
 ".\objects\stm32f4xx_it.o"
 ".\objects\uart_driver.o"

@@ -260,8 +260,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\src\Thread_1.c</PathWithFileName>
-      <FilenameWithoutPath>Thread_1.c</FilenameWithoutPath>
+      <PathWithFileName>.\src\Thread.c</PathWithFileName>
+      <FilenameWithoutPath>Thread.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>

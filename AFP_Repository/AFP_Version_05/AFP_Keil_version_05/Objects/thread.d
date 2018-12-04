@@ -55,6 +55,3 @@
 .\objects\thread.o: src\cs43l22.h
 .\objects\thread.o: src\audio.h
 .\objects\thread.o: src\pdm_filter.h
-.\objects\thread.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
-.\objects\thread.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\DSP\Include\arm_math.h
-.\objects\thread.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h
