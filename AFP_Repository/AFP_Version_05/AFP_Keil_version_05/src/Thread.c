@@ -352,7 +352,7 @@ void FS_Thread (void const *argument) {
 					
 					// Turn off mute
 					BSP_AUDIO_OUT_SetMute(AUDIO_MUTE_OFF);
-					// Start playing the buffer					
+					// Start playing the buffer			
 					//BSP_AUDIO_OUT_Play function to start playing
 					BSP_AUDIO_OUT_Play((uint16_t *)Audio_Buffer1, BUF_LEN);
 					
@@ -364,7 +364,7 @@ void FS_Thread (void const *argument) {
 						BSP_AUDIO_OUT_SetMute(AUDIO_MUTE_OFF);
 						BSP_AUDIO_OUT_ChangeBuffer((uint16_t*)Audio_Buffer1, BUF_LEN);
 					}
-					while(sizeRead == BUF_LEN){
+					while(sizeRead == 1){
 						//Read new buffer of data and send to DMA
 						sizeRead = fread((void *)&Audio_Buffer2, sizeof(Audio_Buffer2), 1, f);
 						// record the buffer that was loaded
@@ -387,7 +387,7 @@ void FS_Thread (void const *argument) {
 								//the read buffer length to zero; // this will stop all playback
 							//}
 						} // end new message
-						if(sizeRead < BUF_LEN){
+						if(sizeRead < 1){
 							// end of song
 							//Send SongDone to state machine
 							osMessagePut(mid_CMDQueue, SongDone, osWaitForever);
