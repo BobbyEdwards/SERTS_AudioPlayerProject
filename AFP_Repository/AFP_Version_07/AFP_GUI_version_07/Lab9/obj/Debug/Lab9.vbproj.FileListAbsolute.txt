@@ -1,0 +1,34 @@
+C:\Users\dvdre\Documents\GitHub\SERTS-Lab\Lab 6\Lab9\Lab9\bin\Debug\Lab9.exe.config
+C:\Users\dvdre\Documents\GitHub\SERTS-Lab\Lab 6\Lab9\Lab9\bin\Debug\Lab9.exe
+C:\Users\dvdre\Documents\GitHub\SERTS-Lab\Lab 6\Lab9\Lab9\bin\Debug\Lab9.pdb
+C:\Users\dvdre\Documents\GitHub\SERTS-Lab\Lab 6\Lab9\Lab9\bin\Debug\Lab9.xml
+C:\Users\dvdre\Documents\GitHub\SERTS-Lab\Lab 6\Lab9\Lab9\obj\Debug\Lab9.Form1.resources
+C:\Users\dvdre\Documents\GitHub\SERTS-Lab\Lab 6\Lab9\Lab9\obj\Debug\Lab9.Resources.resources
+C:\Users\dvdre\Documents\GitHub\SERTS-Lab\Lab 6\Lab9\Lab9\obj\Debug\Lab9.vbproj.GenerateResource.Cache
+C:\Users\dvdre\Documents\GitHub\SERTS-Lab\Lab 6\Lab9\Lab9\obj\Debug\Lab9.exe
+C:\Users\dvdre\Documents\GitHub\SERTS-Lab\Lab 6\Lab9\Lab9\obj\Debug\Lab9.xml
+C:\Users\dvdre\Documents\GitHub\SERTS-Lab\Lab 6\Lab9\Lab9\obj\Debug\Lab9.pdb
+C:\Users\dvdre\Documents\GitHub\SERTS-Lab\Lab 9\Lab9 VB\Lab9\bin\Debug\Lab9.exe.config
+C:\Users\dvdre\Documents\GitHub\SERTS-Lab\Lab 9\Lab9 VB\Lab9\obj\Debug\Lab9.exe
+C:\Users\dvdre\Documents\GitHub\SERTS-Lab\Lab 9\Lab9 VB\Lab9\obj\Debug\Lab9.xml
+C:\Users\dvdre\Documents\GitHub\SERTS-Lab\Lab 9\Lab9 VB\Lab9\obj\Debug\Lab9.pdb
+C:\Users\dvdre\Documents\GitHub\SERTS-Lab\Lab 9\Lab9 VB\Lab9\bin\Debug\Lab9.exe
+C:\Users\dvdre\Documents\GitHub\SERTS-Lab\Lab 9\Lab9 VB\Lab9\bin\Debug\Lab9.pdb
+C:\Users\dvdre\Documents\GitHub\SERTS-Lab\Lab 9\Lab9 VB\Lab9\bin\Debug\Lab9.xml
+C:\Users\dvdre\Documents\GitHub\SERTS-Lab\Lab 9\Lab9 VB\Lab9\obj\Debug\Lab9.Form1.resources
+C:\Users\dvdre\Documents\GitHub\SERTS-Lab\Lab 9\Lab9 VB\Lab9\obj\Debug\Lab9.Resources.resources
+C:\Users\dvdre\Documents\GitHub\SERTS-Lab\Lab 9\Lab9 VB\Lab9\obj\Debug\Lab9.vbproj.GenerateResource.Cache
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP - VB\Lab9 VB\Lab9\bin\Debug\Lab9.exe.config
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP - VB\Lab9 VB\Lab9\obj\Debug\Lab9.exe
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP - VB\Lab9 VB\Lab9\obj\Debug\Lab9.xml
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP - VB\Lab9 VB\Lab9\obj\Debug\Lab9.pdb
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP - VB\Lab9 VB\Lab9\bin\Debug\Lab9.exe
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP - VB\Lab9 VB\Lab9\bin\Debug\Lab9.pdb
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP - VB\Lab9 VB\Lab9\bin\Debug\Lab9.xml
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP - VB\Lab9 VB\Lab9\obj\Debug\Lab9.Form1.resources
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP - VB\Lab9 VB\Lab9\obj\Debug\Lab9.Resources.resources
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP - VB\Lab9 VB\Lab9\obj\Debug\Lab9.vbproj.GenerateResource.Cache
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_0\Lab9\bin\Debug\Lab9.exe.config
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_0\Lab9\obj\Debug\Lab9.exe
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_0\Lab9\obj\Debug\Lab9.xml
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_0\Lab9\obj\Debug\Lab9.pdb
