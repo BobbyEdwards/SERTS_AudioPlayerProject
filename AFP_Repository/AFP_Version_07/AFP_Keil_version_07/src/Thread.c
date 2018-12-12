@@ -249,8 +249,19 @@ void Rx_Command (void const *argument){
       }
 			else if (!strcmp(rx_char, Receive_File_char)){
         // Trigger2 received
-				UART_receivestring(fileName, 50);
 				LED_On(LED_Orange);
+				UART_receivestring(fileName, 50);
+				
+				// Remove last character, this is a return character made by Visual Studio
+				int i = 0;
+				while(fileName[i] != '\0')
+				{
+						i++;
+						 
+				}
+				fileName[i-1] = '\0';
+				
+				LED_Off(LED_Orange);
 				//LED_Off(LED_Orange);
       }
 			else if(!strcmp(rx_char, Play_char)){
@@ -378,13 +389,14 @@ void FS_Thread (void const *argument) {
 					//Open the song file
 					// change this to be the selected file name's string
 					//f = fopen ("Test.wav","r");// open a file on the USB device
-					f = fopen (,"r");// open a file on the USB device
+					f = fopen (fileName,"r");// open a file on the USB device
 					if(f == NULL){
 						break;
 					}
 					//Read a buffer of data
 					// read song header into header variable
 					fread((void *)&header, sizeof(header), 1, f);
+					
 					// load data into first buffer and record the size of the first buffer
 					sizeRead = fread((void *)&Audio_Buffer1, sizeof(Audio_Buffer1), 1, f);
 					// record the buffer that was loaded
