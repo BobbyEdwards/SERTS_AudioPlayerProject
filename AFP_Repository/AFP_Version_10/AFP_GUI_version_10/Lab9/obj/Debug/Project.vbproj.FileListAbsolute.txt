@@ -1,0 +1,110 @@
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_1\Lab9\bin\Debug\Lab9.exe.config
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_1\Lab9\bin\Debug\Lab9.exe
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_1\Lab9\bin\Debug\Lab9.pdb
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_1\Lab9\bin\Debug\Lab9.xml
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_1\Lab9\obj\Debug\Lab9.Form1.resources
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_1\Lab9\obj\Debug\Lab9.Resources.resources
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_1\Lab9\obj\Debug\Project.vbproj.GenerateResource.Cache
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_1\Lab9\obj\Debug\Lab9.exe
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_1\Lab9\obj\Debug\Lab9.xml
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_1\Lab9\obj\Debug\Lab9.pdb
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_02\Lab9\bin\Debug\Lab9.exe.config
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_02\Lab9\obj\Debug\Lab9.exe
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_02\Lab9\obj\Debug\Lab9.xml
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_02\Lab9\obj\Debug\Lab9.pdb
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_02\Lab9\bin\Debug\Lab9.exe.config
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_02\Lab9\bin\Debug\Lab9.exe
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_02\Lab9\bin\Debug\Lab9.pdb
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_02\Lab9\bin\Debug\Lab9.xml
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_02\Lab9\obj\Debug\Project.vbprojResolveAssemblyReference.cache
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_02\Lab9\obj\Debug\Lab9.Form1.resources
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_02\Lab9\obj\Debug\Lab9.Resources.resources
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_02\Lab9\obj\Debug\Project.vbproj.GenerateResource.Cache
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_02\Lab9\obj\Debug\Project.vbproj.CoreCompileInputs.cache
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_02\Lab9\obj\Debug\Lab9.exe
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_02\Lab9\obj\Debug\Lab9.xml
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP - VB\AFP_GUI_version_02\Lab9\obj\Debug\Lab9.pdb
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_04\AFP_GUI_version_04\Lab9\bin\Debug\Lab9.exe.config
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_04\AFP_GUI_version_04\Lab9\bin\Debug\Lab9.exe
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_04\AFP_GUI_version_04\Lab9\bin\Debug\Lab9.pdb
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_04\AFP_GUI_version_04\Lab9\bin\Debug\Lab9.xml
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_04\AFP_GUI_version_04\Lab9\obj\Debug\Project.vbprojResolveAssemblyReference.cache
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_04\AFP_GUI_version_04\Lab9\obj\Debug\Lab9.Form1.resources
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_04\AFP_GUI_version_04\Lab9\obj\Debug\Lab9.Resources.resources
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_04\AFP_GUI_version_04\Lab9\obj\Debug\Project.vbproj.GenerateResource.Cache
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_04\AFP_GUI_version_04\Lab9\obj\Debug\Project.vbproj.CoreCompileInputs.cache
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_04\AFP_GUI_version_04\Lab9\obj\Debug\Lab9.exe
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_04\AFP_GUI_version_04\Lab9\obj\Debug\Lab9.xml
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_04\AFP_GUI_version_04\Lab9\obj\Debug\Lab9.pdb
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_05\AFP_GUI_version_05\Lab9\bin\Debug\Lab9.exe.config
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_05\AFP_GUI_version_05\Lab9\bin\Debug\Lab9.exe
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_05\AFP_GUI_version_05\Lab9\bin\Debug\Lab9.pdb
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_05\AFP_GUI_version_05\Lab9\bin\Debug\Lab9.xml
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_05\AFP_GUI_version_05\Lab9\obj\Debug\Project.vbprojAssemblyReference.cache
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_05\AFP_GUI_version_05\Lab9\obj\Debug\Lab9.Form1.resources
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_05\AFP_GUI_version_05\Lab9\obj\Debug\Lab9.Resources.resources
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_05\AFP_GUI_version_05\Lab9\obj\Debug\Project.vbproj.GenerateResource.cache
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_05\AFP_GUI_version_05\Lab9\obj\Debug\Project.vbproj.CoreCompileInputs.cache
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_05\AFP_GUI_version_05\Lab9\obj\Debug\Lab9.exe
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_05\AFP_GUI_version_05\Lab9\obj\Debug\Lab9.xml
+C:\Users\dvdre\Documents\GitHub\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_05\AFP_GUI_version_05\Lab9\obj\Debug\Lab9.pdb
+C:\Users\Dawson\Documents\GitHub\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_05\AFP_GUI_version_05\Lab9\bin\Debug\Lab9.exe.config
+C:\Users\Dawson\Documents\GitHub\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_05\AFP_GUI_version_05\Lab9\bin\Debug\Lab9.exe
+C:\Users\Dawson\Documents\GitHub\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_05\AFP_GUI_version_05\Lab9\bin\Debug\Lab9.pdb
+C:\Users\Dawson\Documents\GitHub\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_05\AFP_GUI_version_05\Lab9\bin\Debug\Lab9.xml
+C:\Users\Dawson\Documents\GitHub\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_05\AFP_GUI_version_05\Lab9\obj\Debug\Project.vbprojAssemblyReference.cache
+C:\Users\Dawson\Documents\GitHub\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_05\AFP_GUI_version_05\Lab9\obj\Debug\Lab9.Form1.resources
+C:\Users\Dawson\Documents\GitHub\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_05\AFP_GUI_version_05\Lab9\obj\Debug\Lab9.Resources.resources
+C:\Users\Dawson\Documents\GitHub\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_05\AFP_GUI_version_05\Lab9\obj\Debug\Project.vbproj.GenerateResource.cache
+C:\Users\Dawson\Documents\GitHub\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_05\AFP_GUI_version_05\Lab9\obj\Debug\Project.vbproj.CoreCompileInputs.cache
+C:\Users\Dawson\Documents\GitHub\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_05\AFP_GUI_version_05\Lab9\obj\Debug\Lab9.exe
+C:\Users\Dawson\Documents\GitHub\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_05\AFP_GUI_version_05\Lab9\obj\Debug\Lab9.xml
+C:\Users\Dawson\Documents\GitHub\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_05\AFP_GUI_version_05\Lab9\obj\Debug\Lab9.pdb
+C:\Users\Dawson\Documents\GitHub\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_06\AFP_GUI_version_06\Lab9\bin\Debug\Lab9.exe.config
+C:\Users\Dawson\Documents\GitHub\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_06\AFP_GUI_version_06\Lab9\bin\Debug\Lab9.exe
+C:\Users\Dawson\Documents\GitHub\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_06\AFP_GUI_version_06\Lab9\bin\Debug\Lab9.pdb
+C:\Users\Dawson\Documents\GitHub\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_06\AFP_GUI_version_06\Lab9\bin\Debug\Lab9.xml
+C:\Users\Dawson\Documents\GitHub\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_06\AFP_GUI_version_06\Lab9\obj\Debug\Project.vbprojAssemblyReference.cache
+C:\Users\Dawson\Documents\GitHub\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_06\AFP_GUI_version_06\Lab9\obj\Debug\Lab9.Form1.resources
+C:\Users\Dawson\Documents\GitHub\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_06\AFP_GUI_version_06\Lab9\obj\Debug\Lab9.Resources.resources
+C:\Users\Dawson\Documents\GitHub\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_06\AFP_GUI_version_06\Lab9\obj\Debug\Project.vbproj.GenerateResource.cache
+C:\Users\Dawson\Documents\GitHub\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_06\AFP_GUI_version_06\Lab9\obj\Debug\Project.vbproj.CoreCompileInputs.cache
+C:\Users\Dawson\Documents\GitHub\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_06\AFP_GUI_version_06\Lab9\obj\Debug\Lab9.exe
+C:\Users\Dawson\Documents\GitHub\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_06\AFP_GUI_version_06\Lab9\obj\Debug\Lab9.xml
+C:\Users\Dawson\Documents\GitHub\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_06\AFP_GUI_version_06\Lab9\obj\Debug\Lab9.pdb
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_07\AFP_GUI_version_07\Lab9\bin\Debug\Lab9.exe.config
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_07\AFP_GUI_version_07\Lab9\bin\Debug\Lab9.exe
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_07\AFP_GUI_version_07\Lab9\bin\Debug\Lab9.pdb
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_07\AFP_GUI_version_07\Lab9\bin\Debug\Lab9.xml
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_07\AFP_GUI_version_07\Lab9\obj\Debug\Project.vbprojResolveAssemblyReference.cache
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_07\AFP_GUI_version_07\Lab9\obj\Debug\Lab9.Form1.resources
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_07\AFP_GUI_version_07\Lab9\obj\Debug\Lab9.Resources.resources
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_07\AFP_GUI_version_07\Lab9\obj\Debug\Project.vbproj.GenerateResource.Cache
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_07\AFP_GUI_version_07\Lab9\obj\Debug\Project.vbproj.CoreCompileInputs.cache
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_07\AFP_GUI_version_07\Lab9\obj\Debug\Lab9.exe
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_07\AFP_GUI_version_07\Lab9\obj\Debug\Lab9.xml
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_07\AFP_GUI_version_07\Lab9\obj\Debug\Lab9.pdb
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_08\AFP_GUI_version_08\Lab9\bin\Debug\Lab9.exe.config
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_08\AFP_GUI_version_08\Lab9\bin\Debug\Lab9.exe
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_08\AFP_GUI_version_08\Lab9\bin\Debug\Lab9.pdb
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_08\AFP_GUI_version_08\Lab9\bin\Debug\Lab9.xml
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_08\AFP_GUI_version_08\Lab9\obj\Debug\Project.vbprojResolveAssemblyReference.cache
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_08\AFP_GUI_version_08\Lab9\obj\Debug\Lab9.Form1.resources
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_08\AFP_GUI_version_08\Lab9\obj\Debug\Lab9.Resources.resources
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_08\AFP_GUI_version_08\Lab9\obj\Debug\Project.vbproj.GenerateResource.Cache
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_08\AFP_GUI_version_08\Lab9\obj\Debug\Project.vbproj.CoreCompileInputs.cache
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_08\AFP_GUI_version_08\Lab9\obj\Debug\Lab9.exe
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_08\AFP_GUI_version_08\Lab9\obj\Debug\Lab9.xml
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_08\AFP_GUI_version_08\Lab9\obj\Debug\Lab9.pdb
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_09\AFP_GUI_version_09\Lab9\bin\Debug\Lab9.exe.config
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_09\AFP_GUI_version_09\Lab9\bin\Debug\Lab9.exe
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_09\AFP_GUI_version_09\Lab9\bin\Debug\Lab9.pdb
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_09\AFP_GUI_version_09\Lab9\bin\Debug\Lab9.xml
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_09\AFP_GUI_version_09\Lab9\obj\Debug\Project.vbprojResolveAssemblyReference.cache
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_09\AFP_GUI_version_09\Lab9\obj\Debug\Lab9.Form1.resources
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_09\AFP_GUI_version_09\Lab9\obj\Debug\Lab9.Resources.resources
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_09\AFP_GUI_version_09\Lab9\obj\Debug\Project.vbproj.GenerateResource.Cache
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_09\AFP_GUI_version_09\Lab9\obj\Debug\Project.vbproj.CoreCompileInputs.cache
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_09\AFP_GUI_version_09\Lab9\obj\Debug\Lab9.exe
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_09\AFP_GUI_version_09\Lab9\obj\Debug\Lab9.xml
+C:\Users\Bobby Edwards\Documents\School\OC Fall 2018\SERTS\Project\SERTS_AudioPlayerProject\SERTS_AudioPlayerProject\AFP_Repository\AFP_Version_09\AFP_GUI_version_09\Lab9\obj\Debug\Lab9.pdb
