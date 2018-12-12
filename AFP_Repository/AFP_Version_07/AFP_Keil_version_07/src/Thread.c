@@ -17,6 +17,8 @@
 
 // pointer to file type for files on USB device
 FILE *f;
+// file name for song selection
+char fileName[50] = {0};
 
 // WAVE file header format
 typedef struct WAVHEADER {
@@ -237,7 +239,7 @@ void Control(void const *arg){
 
 void Rx_Command (void const *argument){
    char rx_char[2]={0,0};
-	 char fileName[50] = {0};
+	 //char fileName[50] = {0};
    while(1){
       UART_receive(rx_char, 1); // Wait for command from PC GUI
     // Check for the type of character received
@@ -249,7 +251,7 @@ void Rx_Command (void const *argument){
         // Trigger2 received
 				UART_receivestring(fileName, 50);
 				LED_On(LED_Orange);
-				LED_Off(LED_Orange);
+				//LED_Off(LED_Orange);
       }
 			else if(!strcmp(rx_char, Play_char)){
          // Trigger1 received
@@ -375,7 +377,8 @@ void FS_Thread (void const *argument) {
 				case PlayFile:
 					//Open the song file
 					// change this to be the selected file name's string
-					f = fopen ("Test.wav","r");// open a file on the USB device
+					//f = fopen ("Test.wav","r");// open a file on the USB device
+					f = fopen (,"r");// open a file on the USB device
 					if(f == NULL){
 						break;
 					}
